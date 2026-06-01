@@ -1,0 +1,53 @@
+
+## **LICENSE**
+
+```markdown
+MIT License
+
+Copyright (c) 2024 Ferreteria IA
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## 📋 Información Adicional
+
+### Créditos de Terceros
+
+Este proyecto utiliza las siguientes librerías de código abierto:
+
+- **Streamlit** - Licencia Apache 2.0
+- **Pandas** - Licencia BSD 3-Clause
+- **NumPy** - Licencia BSD 3-Clause
+- **scikit-learn** - Licencia BSD 3-Clause
+- **Plotly** - Licencia MIT
+- **SQLAlchemy** - Licencia MIT
+- **PyMySQL** - Licencia MIT
+
+### Exención de Responsabilidad
+
+Este software se proporciona "tal cual", sin garantía de ningún tipo. Los autores no son responsables de los daños que puedan surgir del uso de este software.
+
+### Uso Académico
+
+Este proyecto fue desarrollado como parte de un proyecto académico sobre Aplicación de Inteligencia Artificial en los Negocios. Puede ser utilizado con fines educativos y de investigación.
+
+---
+
+**Ferreteria IA** - Transformando negocios con Inteligencia Artificial 🤖

@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+sqlalchemy
+pymysql
+plotly
+scikit-learn
+joblib
+openai
+transformers
+torch
+textblob
+langchain
+langchain-openai
+crewai

@@ -1,0 +1,56 @@
+/* assets/styles.css - Estilos unificados modo oscuro */
+
+/* Base */
+.stApp {
+    background: linear-gradient(135deg, #0a0a0a 0%, #1a1a2e 100%);
+}
+
+/* Cards */
+.card {
+    background: linear-gradient(135deg, #1e1e2e 0%, #2d2d3f 100%);
+    border-radius: 16px;
+    padding: 1.5rem;
+    border: 1px solid rgba(96, 165, 250, 0.2);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(96, 165, 250, 0.5);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #60a5fa;
+    border-left: 3px solid #60a5fa;
+    padding-left: 0.8rem;
+}
+
+.card-value {
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: #fbbf24;
+}
+
+/* Badge */
+.badge {
+    background: linear-gradient(135deg, #059669, #047857);
+    color: white;
+    padding: 0.3rem 1.2rem;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+/* Botones */
+.stButton button {
+    background: linear-gradient(135deg, #3b82f6, #2563eb);
+    color: white;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.stButton button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
+}

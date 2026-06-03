@@ -185,7 +185,23 @@ def obtener_top_productos_queridos():
     except Exception as e:
         print("Error obteniendo productos queridos:", e)
         return pd.DataFrame()
-
+    
+def obtener_proveedor_producto(idproducto):
+    try:
+        return pd.read_sql("""
+            SELECT 
+                pr.Idproveedor,
+                pr.Razon_social,
+                pr.Telefono,
+                pr.Correo
+            FROM productoprovs pp
+            INNER JOIN proveedors pr ON pr.Idproveedor = pp.Idproveedor
+            WHERE pp.Idproducto = %s
+            LIMIT 1
+        """, engine, params=(int(idproducto),))
+    except Exception as e:
+        print("Error obteniendo proveedor del producto:", e)
+        return pd.DataFrame()
 
 def obtener_top_productos_criticados():
     """Obtiene productos con peor sentimiento"""
@@ -209,3 +225,5 @@ def obtener_top_productos_criticados():
     except Exception as e:
         print("Error obteniendo productos criticados:", e)
         return pd.DataFrame()
+    
+    
